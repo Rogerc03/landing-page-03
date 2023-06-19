@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    word-wrap: break-word;
 }
 
 .header{
@@ -11,14 +12,16 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.logo {
+    margin-left: 10px;
+}
 .logo, .logo2 {
     width: 100px;
     height: 30px;
 }
 
 .header-p {
-    margin-right: 56%;
+    margin-right: 53%;
 }
 
 .header-link {
@@ -30,7 +33,6 @@
     display: flex;
     text-align: center;
     margin-right: 3%;
-    word-wrap: break-word;
     width: 200px;
     cursor: pointer;
 
@@ -50,7 +52,6 @@
     flex-direction: column;
     align-items: flex-start;
     text-align:left;
-    word-wrap: break-word;
     gap: 30px;
     width: 72vh;
     margin-right: 0%;
@@ -71,6 +72,8 @@
     align-items: center;
     justify-content: center;
     height: 100px;
+    padding: 30px 30px;
+    
 }
 .section2-link2{
     background-color: white;
@@ -79,33 +82,49 @@
     padding: 7px 7px;
     display: flex;
     text-align: center;
-    margin-top: 15px;
+    margin:  10px;
    
+}
+.section2-p {
+    font-size: 1.9em;
+}
+.section-text-p1, .section2-p1 {
+    font-size: 0.6em;
 }
 .section3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #004e71;
-}
-th, td{
-    border: 1px solid #004e71;
-    padding: 10px;
-    flex-direction: row;
-    word-wrap: break-word;
-}
-
-
-.footer {
-    background-color: #004e71;
-    color: white;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    height: auto;
+    padding: 60px 60px;
+    padding-left: 30%;
+    padding-right: 30%;
     
+}
+
+.section3-text-p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 3%;
+    
+}
+.section3-text-p1 {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.section3-tab {
+    border-spacing: 5px;
+    
+}
+
+tr, td {
+    border: 1px solid #004e71;
+    padding: 8px 10px;
+    flex-direction: row;
+    text-align: center; 
+     
 }
 
 .section4 {
@@ -117,4 +136,20 @@ th, td{
     height: 100px;
     padding-top: 40px;
     padding-bottom: 60px;
+}
+
+h6 {
+    font-size: 0.5em;
+}
+
+.footer {
+    background-color: #004e71;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
 }
